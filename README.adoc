@@ -1,27 +1,27 @@
 ++++
 <p align="center">
-  <img width="750" height="425" src="cdw-media/media/imagecopy02.png">
+  <img width="750" height="425" src="media/title.png">
 </p>
 ++++
 
-link:#preface[[.underline]#Preface#]
+link:#preface[[.underline]#はじめに#]
 
 link:#pre-requisites[[.underline]#Pre-requisites#]
 
 link:#workshop-overview[[.underline]#Workshop Overview#]
 
-link:#lab-1---getting-started[[.underline]#LAB 1 - Getting Started#]
+link:#lab-1---getting-started[[.underline]#ラボ1 - 準備作業#]
 
 
-** link:#verify-resources[[.underline]#VERIFY RESOURCES#]
+** link:#verify-resources[[.underline]#リソースの確認#]
 
-** link:#define-cdp-workload-password[[.underline]#DEFINE CDP WORKLOAD PASSWORD#]
+** link:#define-cdp-workload-password[[.underline]#CDP Workload Passwordの設定#]
 
-*** link:#step-1-login[[.underline]#Step 1 : Login#]
+*** link:#step-1-login[[.underline]#手順1 : ログイン#]
 
-*** link:#step-2-go-to-profile[[.underline]#Step 2 : Go to Profile#]
+*** link:#step-2-go-to-profile[[.underline]#手順2 : プロファイル情報の確認#]
 
-*** link:#step-3-set-workload-password[[.underline]#Step 3 : Set Workload Password#]
+*** link:#step-3-set-workload-password[[.underline]#手順3 : Workload Passwordの設定#]
 
 
 link:#lab-2---raw-layer[[.underline]#LAB 2 - RAW LAYER#]
@@ -99,9 +99,9 @@ link:#lab-6---cloudera-data-visualization[[.underline]#LAB 6 - CLOUDERA DATA VIS
 
 
 
-== CLOUDERA DATA WAREHOUSE WORKSHOP
+== CLOUDERA DATA FLOW HANDS-ON WORKSHOP
 
-== Preface
+== はじめに
 
 Working for an Aircraft Engine company, the company wants to increase competitive advantage in two keyways:
 
@@ -157,7 +157,7 @@ planes (5k rows)
 ++++
 ++++
 <p align="center">
-  <img width="508" height="462" src="cdw-media/media/image76.png">
+  <img width="508" height="462" src="media/image76.png">
 </p>
 ++++
 
@@ -317,11 +317,11 @@ Data Modeling for the lakehouse.
 Data Visualization for insights.
 ____
 
-== LAB 1 - Getting Started
+== ラボ1 - 準備作業
 
-=== VERIFY RESOURCES
+=== リソースの確認
 
-For this workshop you will use the following credentials and resources
+ワークショップでは以下のようなクレデンシャルや環境を使用します
 
 [width="100%",cols="40%,60%",]
 |===
@@ -334,56 +334,56 @@ For this workshop you will use the following credentials and resources
 |===
 
 
-=== DEFINE CDP WORKLOAD PASSWORD
+=== CDP Workload Passwordの設定
 
-==== Step 1 : Login
+==== 手順1 : ログイン
 ____
-Login to the environment using the URL and credentials provided.. The login page will look like this.
+ワークショップ環境のURLにアクセスし、Workshop Login Username/Passwordでログインします。ログインページは以下のようなもので、初回はパスワード変更が要求されます。
 
 ++++
 <p align="center">
-  <img width="350" height="400" src="cdw-media/media/image72.png">
+  <img width="350" height="400" src="media/image72.png">
 </p>
 ++++
 ____
 
-==== Step 2 : Go to Profile
+==== 手順2 : プロファイル情報の確認
 ____
-Once you log in successfully you will be able to see the CDP HomePage with all the data services and the management services. Click on the username at the bottom left of the screen and select *PROFILE*
+ログインに成功するとCDPのホームページが表示されます。CDPのデータサービスや各種管理サービスのアイコンが表示されます。画面左下のユーザ名のアイコンをクリックし *PROFILE* をクリックします。
 
 ++++
 <p align="center">
-  <img width="366" height="204" src="cdw-media/media/image41.png">
+  <img width="366" height="204" src="media/image41.png">
 </p>
 ++++
 
 ++++
 <p align="center">
-  <img width="230" height="310" src="cdw-media/media/image89.png">
+  <img width="230" height="310" src="media/image89.png">
 </p>
 ++++
 ____
 
 
-==== Step 3 : Set Workload Password
+==== 手順3 : Workload Passwordの設定
 ____
 ++++
 <p align="center">
-  <img width="430" height="310" src="cdw-media/media/image119.png">
+  <img width="430" height="310" src="media/image119.png">
 </p>
 ++++
 
-Click option Set Workload Password.
+*Set Workload Password* をクリックします。
 
-Enter the Password shared by the instructor and Confirm Password.
+講師から指定されたパスワードを入力してください。
 
 ++++
 <p align="center">
-  <img width="566" height="280" src="cdw-media/media/image84.png">
+  <img width="566" height="280" src="media/image84.png">
 </p>
 ++++
 
-Click the button *Set Workload Password.*
+*Set Workload Password* ボタンをクリックしてパスワードを保存します。
 ____
 
 == LAB 2 - RAW LAYER
@@ -394,7 +394,7 @@ To access Data Warehouse data service click on Data Warehouse on the left.
 
 ++++
 <p align="center">
-  <img width="200" height="434" src="cdw-media/media/image38.png">
+  <img width="200" height="434" src="media/image38.png">
 </p>
 ++++
 
@@ -408,7 +408,7 @@ In the virtual cluster that has been assigned to you select HUE from the top rig
 
 ++++
 <p align="center">
-  <img width="624" height="129" src="cdw-media/media/image80.png">
+  <img width="624" height="129" src="media/image80.png">
 </p>
 ++++
 ____
@@ -434,7 +434,7 @@ CREATE DATABASE apac01_airlines;
 
 ++++
 <p align="center">
-  <img width="293" height="259" src="cdw-media/media/image115.png">
+  <img width="293" height="259" src="media/image115.png">
 </p>
 ++++
 
@@ -447,7 +447,7 @@ SHOW DATABASES LIKE '${user_id}%';
 ----
 ++++
 <p align="center">
-  <img width="358" height="436" src="cdw-media/media/image125.png">
+  <img width="358" height="436" src="media/image125.png">
 </p>
 ++++
 ____
@@ -526,7 +526,7 @@ CREATE EXTERNAL TABLE ${user_id}_airlines_raw.airports_csv(
 
 ++++
 <p align="center">
-  <img width="624" height="300" src="cdw-media/media/image1.png">
+  <img width="624" height="300" src="media/image1.png">
 </p>
 ++++
 ____
@@ -545,7 +545,7 @@ Make sure that 4 tables (airlines_csv, airports_csv, flights_csv, planes_csv) ar
 
 ++++
 <p align="center">
-  <img width="521" height="373" src="cdw-media/media/image110.png">
+  <img width="521" height="373" src="media/image110.png">
 </p>
 ++++
 ____
@@ -556,7 +556,7 @@ Go to the page where now you will access HUE of an Impala virtual warehouse assi
 
 ++++
 <p align="center">
-  <img width="559" height="155" src="cdw-media/media/image40.png">
+  <img width="559" height="155" src="media/image40.png">
 </p>
 ++++
 
@@ -564,7 +564,7 @@ Make sure that you click to get Impala instead of default in the HUE browser as 
 
 ++++
 <p align="center">
-  <img width="376" height="279" src="cdw-media/media/image10.png">
+  <img width="376" height="279" src="media/image10.png">
 </p>
 ++++
 
@@ -577,7 +577,7 @@ select count(*) from ${user_id}_airlines_raw.flights_csv;
 
 ++++
 <p align="center">
-  <img width="582" height="353" src="cdw-media/media/image18.png">
+  <img width="582" height="353" src="media/image18.png">
 </p>
 ++++
 
@@ -644,7 +644,7 @@ WHERE
 
 ++++
 <p align="center">
-  <img width="624" height="281" src="cdw-media/media/image129.png">
+  <img width="624" height="281" src="media/image129.png">
 </p>
 ++++
 
@@ -653,7 +653,7 @@ Post execution, look at the graph on your virtual warehouse.
 
 ++++
 <p align="center">
-  <img width="624" height="224" src="cdw-media/media/image11.png">
+  <img width="624" height="224" src="media/image11.png">
 </p>
 ++++
 
@@ -661,7 +661,7 @@ Go back to the editor and observe the amount of time the query has taken to comp
 
 ++++
 <p align="center">
-  <img width="624" height="285" src="cdw-media/media/image113.png">
+  <img width="624" height="285" src="media/image113.png">
 </p>
 ++++
 ____
@@ -673,7 +673,7 @@ In this Lab we will take steps to make use of Hive and Iceberg Table formats to 
 
 ++++
 <p align="center">
-  <img width="624" height="240" src="cdw-media/media/image109.png">
+  <img width="624" height="240" src="media/image109.png">
 </p>
 ++++
 
@@ -692,7 +692,7 @@ Make sure that you are using the HUE of the HIVE virtual warehouse that has been
 
 ++++
 <p align="center">
-  <img width="624" height="153" src="cdw-media/media/image56.png">
+  <img width="624" height="153" src="media/image56.png">
 </p>
 ++++
 
@@ -721,7 +721,7 @@ CREATE EXTERNAL TABLE ${user_id}_airlines.planes (
 
 ++++
 <p align="center">
-  <img width="584" height="281" src="cdw-media/media/image132.png">
+  <img width="584" height="281" src="media/image132.png">
 </p>
 ++++
 
@@ -742,7 +742,7 @@ FROM
 
 ++++
 <p align="center">
-  <img width="624" height="270" src="cdw-media/media/image90.png">
+  <img width="624" height="270" src="media/image90.png">
 </p>
 ++++
 
@@ -760,7 +760,7 @@ SELECT * FROM ${user_id}_airlines.planes LIMIT 100;
 ----
 ++++
 <p align="center">
-  <img width="624" height="360" src="cdw-media/media/image20.png">
+  <img width="624" height="360" src="media/image20.png">
 </p>
 ++++
 ____
@@ -797,13 +797,13 @@ In the output look for the following.
 
 ++++
 <p align="center">
-  <img width="624" height="298" src="cdw-media/media/image59.png">
+  <img width="624" height="298" src="media/image59.png">
 </p>
 ++++
 
 ++++
 <p align="center">
-  <img width="624" height="294" src="cdw-media/media/image131.png">
+  <img width="624" height="294" src="media/image131.png">
 </p>
 ++++
 ____
@@ -826,7 +826,7 @@ FROM
 ----
 ++++
 <p align="center">
-  <img width="536" height="180" src="cdw-media/media/image13.png">
+  <img width="536" height="180" src="media/image13.png">
 </p>
 ++++
 
@@ -844,7 +844,7 @@ WHERE
 
 ++++
 <p align="center">
-  <img width="400" height="251" src="cdw-media/media/image73.png">
+  <img width="400" height="251" src="media/image73.png">
 </p>
 ++++
 ____
@@ -865,7 +865,7 @@ INSERT INTO ${user_id}_airlines.airlines_orc VALUES("PAW","Paradise Air");
 
 ++++
 <p align="center">
-  <img width="624" height="229" src="cdw-media/media/image23.png">
+  <img width="624" height="229" src="media/image23.png">
 </p>
 ++++
 
@@ -909,7 +909,7 @@ WHERE
 ----
 ++++
 <p align="center">
-  <img width="624" height="330" src="cdw-media/media/image112.png">
+  <img width="624" height="330" src="media/image112.png">
 </p>
 ++++
 ____
@@ -1014,7 +1014,7 @@ SHOW CREATE TABLE ${user_id}_airlines.flights;
 
 ++++
 <p align="center">
-  <img width="624" height="321" src="cdw-media/media/image82.png">
+  <img width="624" height="321" src="media/image82.png">
 </p>
 ++++
 
@@ -1022,12 +1022,12 @@ The SHOW CREATE TABLE command is the unformatted version of DESCRIBE FORMATTED c
 
 ++++
 <p align="center">
-  <img width="624" height="321" src="cdw-media/media/image103.png">
+  <img width="624" height="321" src="media/image103.png">
 </p>
 ++++
 ++++
 <p align="center">
-  <img width="624" height="250" src="cdw-media/media/image62.png">
+  <img width="624" height="250" src="media/image62.png">
 </p>
 ++++
 
@@ -1044,7 +1044,7 @@ WHERE year <= 2006;
 
 ++++
 <p align="center">
-  <img width="624" height="202" src="cdw-media/media/image60.png">
+  <img width="624" height="202" src="media/image60.png">
 </p>
 ++++
 
@@ -1060,7 +1060,7 @@ ORDER BY year desc;
 ----
 ++++
 <p align="center">
-  <img width="624" height="408" src="cdw-media/media/image55.png">
+  <img width="624" height="408" src="media/image55.png">
 </p>
 ++++
 
@@ -1069,7 +1069,7 @@ Now, make sure that the following 5 tables are created up until this point as sh
 
 ++++
 <p align="center">
-  <img width="302" height="284" src="cdw-media/media/image83.png">
+  <img width="302" height="284" src="media/image83.png">
 </p>
 ++++
 
@@ -1078,7 +1078,7 @@ As a final step here let’s run the same analytic query we ran against the Raw 
 
 ++++
 <p align="center">
-  <img width="624" height="152" src="cdw-media/media/image58.png">
+  <img width="624" height="152" src="media/image58.png">
 </p>
 ++++
 
@@ -1087,7 +1087,7 @@ Make sure that 'Unified Analytics' is NOT selected.
 
 ++++
 <p align="center">
-  <img width="527" height="271" src="cdw-media/media/image120.png">
+  <img width="527" height="271" src="media/image120.png">
 </p>
 ++++
 
@@ -1095,12 +1095,12 @@ Instead click on the Editor option in the left top corner and select Impala edit
 
 ++++
 <p align="center">
-  <img width="479" height="316" src="cdw-media/media/image22.png">
+  <img width="479" height="316" src="media/image22.png">
 </p>
 ++++
 ++++
 <p align="center">
-  <img width="624" height="294" src="cdw-media/media/image30.png">
+  <img width="624" height="294" src="media/image30.png">
 </p>
 ++++
 
@@ -1143,7 +1143,7 @@ WHERE  planes.tailnum IN
 
 ++++
 <p align="center">
-  <img width="624" height="464" src="cdw-media/media/image27.png">
+  <img width="624" height="464" src="media/image27.png">
 </p>
 ++++
 
@@ -1159,7 +1159,7 @@ In this Step we will look at some of the performance optimization and table main
 ____
 ++++
 <p align="center">
-  <img width="624" height="172" src="cdw-media/media/image53.png">
+  <img width="624" height="172" src="media/image53.png">
 </p>
 ++++
 ____
@@ -1181,7 +1181,7 @@ SHOW CREATE TABLE ${user_id}_airlines.flights;
 
 ++++
 <p align="center">
-  <img width="624" height="265" src="cdw-media/media/image24.png">
+  <img width="624" height="265" src="media/image24.png">
 </p>
 ++++
 
@@ -1189,7 +1189,7 @@ Check for the following where now the partition is by year, month.
 
 ++++
 <p align="center">
-  <img width="447" height="255" src="cdw-media/media/image36.png">
+  <img width="447" height="255" src="media/image36.png">
 </p>
 ++++
 ____
@@ -1220,14 +1220,14 @@ Go to *IMPALA* virtual warehouse and switch the Editor to use IMPALA instead of 
 
 ++++
 <p align="center">
-  <img width="624" height="206" src="cdw-media/media/image86.png">
+  <img width="624" height="206" src="media/image86.png">
 </p>
 ++++
 
 
 ++++
 <p align="center">
-  <img width="511" height="216" src="cdw-media/media/image93.png">
+  <img width="511" height="216" src="media/image93.png">
 </p>
 ++++
 ____
@@ -1262,12 +1262,12 @@ Run Explain Plan against the above analytic queries to see how the new partition
 
 ++++
 <p align="center">
-  <img width="561" height="187" src="cdw-media/media/image50.png">
+  <img width="561" height="187" src="media/image50.png">
 </p>
 ++++
 ++++
 <p align="center">
-  <img width="394" height="526" src="cdw-media/media/image128.png">
+  <img width="394" height="526" src="media/image128.png">
 </p>
 ++++
 ____
@@ -1298,7 +1298,7 @@ ORDER BY
 
 ++++
 <p align="center">
-  <img width="467" height="592" src="cdw-media/media/image65.png">
+  <img width="467" height="592" src="media/image65.png">
 </p>
 ++++
 
@@ -1322,7 +1322,7 @@ WHERE
 
 ++++
 <p align="center">
-  <img width="624" height="489" src="cdw-media/media/image127.png">
+  <img width="624" height="489" src="media/image127.png">
 </p>
 ++++
 
@@ -1336,7 +1336,7 @@ DESCRIBE HISTORY ${user_id}_airlines.flights;
 
 ++++
 <p align="center">
-  <img width="624" height="354" src="cdw-media/media/image108.png">
+  <img width="624" height="354" src="media/image108.png">
 </p>
 ++++
 
@@ -1347,12 +1347,12 @@ Get the details of the snapshots and store it in a notepad.
 
 ++++
 <p align="center">
-  <img width="624" height="113" src="cdw-media/media/image8.png">
+  <img width="624" height="113" src="media/image8.png">
 </p>
 ++++
 ++++
 <p align="center">
-  <img width="274" height="213" src="cdw-media/media/image45.png">
+  <img width="274" height="213" src="media/image45.png">
 </p>
 ++++
 
@@ -1394,7 +1394,7 @@ After pasting the query you will see the following two options for *create_ts* a
 
 ++++
 <p align="center">
-  <img width="624" height="194" src="cdw-media/media/image78.png">
+  <img width="624" height="194" src="media/image78.png">
 </p>
 ++++
 ____
@@ -1406,7 +1406,7 @@ From the notepad just copy the first value of the timestamp. It could be the dat
 
 ++++
 <p align="center">
-  <img width="624" height="349" src="cdw-media/media/image68.png">
+  <img width="624" height="349" src="media/image68.png">
 </p>
 ++++
 ____
@@ -1421,7 +1421,7 @@ ____
 
 ++++
 <p align="center">
-  <img width="624" height="366" src="cdw-media/media/image98.png">
+  <img width="624" height="366" src="media/image98.png">
 </p>
 ++++
 Sometimes data can be loaded incorrectly, due to many common issues - missing fields, only part of the data being loaded, bad data, etc.
@@ -1458,7 +1458,7 @@ Go to the HUE UI of the HIVE virtual warehouse assigned to you
 
 ++++
 <p align="center">
-  <img width="624" height="157" src="cdw-media/media/image124.png">
+  <img width="624" height="157" src="media/image124.png">
 </p>
 ++++
 
@@ -1528,7 +1528,7 @@ ____
 
 ++++
 <p align="center">
-  <img width="624" height="153" src="cdw-media/media/image114.png">
+  <img width="624" height="153" src="media/image114.png">
 </p>
 ++++
 
@@ -1541,7 +1541,7 @@ ____
 
 ++++
 <p align="center">
-  <img width="624" height="258" src="cdw-media/media/image39.png">
+  <img width="624" height="258" src="media/image39.png">
 </p>
 ++++
 
@@ -1557,13 +1557,13 @@ This is where you can analyze queries at a deep level. For this lab let’s take
 
 ++++
 <p align="center">
-  <img width="624" height="169" src="cdw-media/media/image42.png">
+  <img width="624" height="169" src="media/image42.png">
 </p>
 ++++
 
 ++++
 <p align="center">
-  <img width="624" height="209" src="cdw-media/media/image32.png">
+  <img width="624" height="209" src="media/image32.png">
 </p>
 ++++
 ____
@@ -1577,7 +1577,7 @@ ____
 ____
 ++++
 <p align="center">
-  <img width="624" height="180" src="cdw-media/media/image7.png">
+  <img width="624" height="180" src="media/image7.png">
 </p>
 ++++
 
@@ -1623,7 +1623,7 @@ ____
 Run Dashboard Query again to see usage of the MV - Copy/paste the following, make sure to highlight the entire block, and execute the following. This time an order by was added to make this query must do more work.
 ++++
 <p align="center">
-  <img width="624" height="245" src="cdw-media/media/image34.png">
+  <img width="624" height="245" src="media/image34.png">
 </p>
 ++++
 
@@ -1652,7 +1652,7 @@ order by
 ----
 ++++
 <p align="center">
-  <img width="624" height="385" src="cdw-media/media/image79.png">
+  <img width="624" height="385" src="media/image79.png">
 </p>
 ++++
 
@@ -1660,7 +1660,7 @@ Let’s look at the Query Plan that was used to execute this query. On the left 
 
 ++++
 <p align="center">
-  <img width="478" height="231" src="cdw-media/media/image99.png">
+  <img width="478" height="231" src="media/image99.png">
 </p>
 ++++
 
@@ -1677,7 +1677,7 @@ Go to the Cloudera Data Platform Console and click on Data Catalog
 
 ++++
 <p align="center">
-  <img width="624" height="412" src="cdw-media/media/image44.png">
+  <img width="624" height="412" src="media/image44.png">
 </p>
 ++++
 ____
@@ -1689,7 +1689,7 @@ Change the radio button to select the appropriate data lake. In this case it is 
 
 ++++
 <p align="center">
-  <img width="624" height="385" src="cdw-media/media/image123.png">
+  <img width="624" height="385" src="media/image123.png">
 </p>
 ++++
 
@@ -1702,7 +1702,7 @@ Filter for Assets we created - below the Data Lakes on the left of the screen un
 
 ++++
 <p align="center">
-  <img width="624" height="380" src="cdw-media/media/image66.png">
+  <img width="624" height="380" src="media/image66.png">
 </p>
 ++++
 
@@ -1715,12 +1715,12 @@ Under DATABASE, click Add new Value. In the box that appears start typing your <
 
 ++++
 <p align="center">
-  <img width="468" height="378" src="cdw-media/media/image26.png">
+  <img width="468" height="378" src="media/image26.png">
 </p>
 ++++
 ++++
 <p align="center">
-  <img width="449" height="421" src="cdw-media/media/image87.png">
+  <img width="449" height="421" src="media/image87.png">
 </p>
 ++++
 ____
@@ -1732,7 +1732,7 @@ You should now see the tables and materialized views that have been created in t
 
 ++++
 <p align="center">
-  <img width="465" height="286" src="cdw-media/media/image75.png">
+  <img width="465" height="286" src="media/image75.png">
 </p>
 ++++
 ____
@@ -1744,7 +1744,7 @@ This page shows information about the flights table such as the table owner, whe
 
 ++++
 <p align="center">
-  <img width="519" height="286" src="cdw-media/media/image71.png">
+  <img width="519" height="286" src="media/image71.png">
 </p>
 ++++
 ____
@@ -1777,7 +1777,7 @@ ____
 
 ++++
 <p align="center">
-  <img width="545" height="192" src="cdw-media/media/image117.png">
+  <img width="545" height="192" src="media/image117.png">
 </p>
 ++++
 
@@ -1790,7 +1790,7 @@ Click on the Policy tab to see what security policies have been applied on this 
 
 ++++
 <p align="center">
-  <img width="535" height="364" src="cdw-media/media/image9.png">
+  <img width="535" height="364" src="media/image9.png">
 </p>
 ++++
 
@@ -1801,7 +1801,7 @@ ____
 ____
 It will open Ranger which is for access management. Using Security (Ranger) - we can modify and create security policies for the various CDP Data Services. Click on Hadoop SQL link in the upper right corner - to view the security policies in place for CDW. Here, I will stick to the CDW related security features.
 
-image:cdw-media/media/image111.png[cdw-media/media/image111,width=496,height=237]
+image:media/image111.png[media/image111,width=496,height=237]
 ____
 
 * {blank}
@@ -1809,7 +1809,7 @@ ____
 ____
 This screen shows the general Access related security policies - who has access to which Data Lakehouse databases, tables, views, etc. Click on the Row Level Filter tab to see the policies to restrict access to portions of data.
 
-image:cdw-media/media/image51.png[cdw-media/media/image51,width=544,height=189]
+image:media/image51.png[media/image51,width=544,height=189]
 ____
 
 === Step 1 : Add New Policy
@@ -1819,7 +1819,7 @@ ____
 ____
 There are currently no policies defined. Click on the Add New Policy button on the top right corner.
 
-image:cdw-media/media/image17.png[cdw-media/media/image17,width=624,height=148]
+image:media/image17.png[media/image17,width=624,height=148]
 ____
 
 * {blank}
@@ -1843,11 +1843,11 @@ Fill out the form as follows.
 
 Click the Add button to accept this Policy.
 
-image:cdw-media/media/image46.png[cdw-media/media/image46,width=624,height=357]
+image:media/image46.png[media/image46,width=624,height=357]
 
 The new policy is added to the Row Level Filter policies (as below).
 
-image:cdw-media/media/image64.png[cdw-media/media/image64,width=624,height=138]
+image:media/image64.png[media/image64,width=624,height=138]
 ____
 
 === Step 2 : Test New Policy
@@ -1871,7 +1871,7 @@ GROUP BY
 
 You should now only see 1 row returned for this query - after the policy was applied you will only be able to access uniquecarrier = UA and no other carriers.
 
-image:cdw-media/media/image5.png[cdw-media/media/image5,width=624,height=346]
+image:media/image5.png[media/image5,width=624,height=346]
 ____
 
 == LAB 6 - CLOUDERA DATA VISUALIZATION
@@ -1885,7 +1885,7 @@ In this step you will build a Logistics Dashboard using Cloudera Data Visualizat
 ____
 If you are not on the CDP home page, then go there and click on the following CDW icon to go into Cloudera Data Warehouse.
 
-image:cdw-media/media/image94.png[cdw-media/media/image94,width=624,height=381]
+image:media/image94.png[media/image94,width=624,height=381]
 ____
 
 * {blank}
@@ -1893,7 +1893,7 @@ ____
 ____
 Click on the Data Visualization option in the left windowpane. You’ll see an option Data VIZ next to the data-viz application with the name *hol-data-viz*. It should open a new window.
 
-image:cdw-media/media/image2.png[cdw-media/media/image2,width=624,height=78]
+image:media/image2.png[media/image2,width=624,height=78]
 ____
 
 * {blank}
@@ -1902,7 +1902,7 @@ ____
 There are 4 areas of CDV - HOME, SQL, VISUALS, DATA - these are the tabs at the top of the screen in the black bar to the right of the Cloudera Data Visualization banner.
 
 
-image:cdw-media/media/image116.png[cdw-media/media/image116,width=624,height=157]
+image:media/image116.png[media/image116,width=624,height=157]
 ____
 
 * {blank}
@@ -1911,7 +1911,7 @@ ____
 Click on DATA in the top banner. A Dataset is a Semantic Layer where you can create a business view on top of the data - data is not copied; this is just a logical layer.
 
 
-image:cdw-media/media/image37.png[cdw-media/media/image37,width=624,height=370]
+image:media/image37.png[media/image37,width=624,height=370]
 ____
 
 * {blank}
@@ -1930,9 +1930,9 @@ Create a connection - click on the NEW CONNECTION button on the left menu. Enter
 |*Password* |Blank
 |===
 
-image:cdw-media/media/image57.png[cdw-media/media/image57,width=624,height=326]
+image:media/image57.png[media/image57,width=624,height=326]
 
-image:cdw-media/media/image3.png[cdw-media/media/image3,width=435,height=505]
+image:media/image3.png[media/image3,width=435,height=505]
 ____
 
 * {blank}
@@ -1941,7 +1941,7 @@ ____
 Click on CONNECT.
 
 
-image:cdw-media/media/image52.png[cdw-media/media/image52,width=340,height=399]
+image:media/image52.png[media/image52,width=340,height=399]
 ____
 
 * {blank}
@@ -1950,9 +1950,9 @@ ____
 You will see your connection in the list of connections on the left menu. On the right side of the screen you will see Datasets and the Connection Explorer. Click on NEW DATASET.
 
 
-image:cdw-media/media/image100.png[cdw-media/media/image100,width=471,height=326]
+image:media/image100.png[media/image100,width=471,height=326]
 
-image:cdw-media/media/image67.png[cdw-media/media/image67,width=527,height=292]
+image:media/image67.png[media/image67,width=527,height=292]
 ____
 
 * {blank}
@@ -1969,7 +1969,7 @@ Fill the details as following and click CREATE. airline_logistics gets created
 *Select Table* - flights.
 
 
-image:cdw-media/media/image61.png[cdw-media/media/image61,width=381,height=320]
+image:media/image61.png[media/image61,width=381,height=320]
 ____
 
 * {blank}
@@ -1977,39 +1977,39 @@ ____
 ____
 Edit the Dataset - click on airline_logistics on the right of the screen. This will open the details page, showing you information about the Dataset, such as connection details, and options that are set.
 
-image:cdw-media/media/image74.png[cdw-media/media/image74,width=624,height=241]
+image:media/image74.png[media/image74,width=624,height=241]
 
 Click on Fields option in the left window pane.
 
-image:cdw-media/media/image91.png[cdw-media/media/image91,width=363,height=376]
+image:media/image91.png[media/image91,width=363,height=376]
 
-image:cdw-media/media/image15.png[cdw-media/media/image15,width=624,height=297]
+image:media/image15.png[media/image15,width=624,height=297]
 
 Click on Data Model - for our Dataset we need to join additional data to the flights table including the planes, airlines, and airports tables.
 
-image:cdw-media/media/image88.png[cdw-media/media/image88,width=443,height=351]
+image:media/image88.png[media/image88,width=443,height=351]
 
 Click on EDIT DATA MODEL.
 
-image:cdw-media/media/image105.png[cdw-media/media/image105,width=488,height=331]
+image:media/image105.png[media/image105,width=488,height=331]
 
 Click on the + icon next to the flights table option.
 
-image:cdw-media/media/image104.png[cdw-media/media/image104,width=595,height=319]
+image:media/image104.png[media/image104,width=595,height=319]
 
 Select the appropriate Database Name base on your user id (Ex: wuser00_airlines) and table name planes.
 
-image:cdw-media/media/image95.png[cdw-media/media/image95,width=480,height=288]
+image:media/image95.png[media/image95,width=480,height=288]
 
 Then click on the joinicon join icon and see that there are 2 join options tailnum & year. Click on EDIT JOIN and then remove the year join by clicking the little - (minus) icon to the right next to the year column. Click on APPLY.
 
-image:cdw-media/media/image81.png[cdw-media/media/image81,width=490,height=252]
+image:media/image81.png[media/image81,width=490,height=252]
 
-image:cdw-media/media/image33.png[cdw-media/media/image33,width=432,height=325]
+image:media/image33.png[media/image33,width=432,height=325]
 
-image:cdw-media/media/image6.png[cdw-media/media/image6,width=365,height=304]
+image:media/image6.png[media/image6,width=365,height=304]
 
-image:cdw-media/media/image96.png[cdw-media/media/image96,width=358,height=256]
+image:media/image96.png[media/image96,width=358,height=256]
 ____
 
 * {blank}
@@ -2018,9 +2018,9 @@ ____
 Now we will create a join between another table. Click on + icon next to flights as shown below. Select the appropriate Database Name based on your <user_id> (Ex: wuser00_airlines) and table name airlines.
 
 
-image:cdw-media/media/image43.png[cdw-media/media/image43,width=505,height=248]
+image:media/image43.png[media/image43,width=505,height=248]
 
-image:cdw-media/media/image63.png[cdw-media/media/image63,width=389,height=236]
+image:media/image63.png[media/image63,width=389,height=236]
 ____
 
 * {blank}
@@ -2029,7 +2029,7 @@ ____
 Make sure you select the column uniquecarrier from flights and column code from airlines table. Click APPLY.
 
 
-image:cdw-media/media/image28.png[cdw-media/media/image28,width=491,height=357]
+image:media/image28.png[media/image28,width=491,height=357]
 ____
 
 * {blank}
@@ -2038,9 +2038,9 @@ ____
 Click on + icon next to flights as shown below. Select the appropriate Database Name based on your <user_id> (Ex: wuser00_airlines) and table name airports.
 
 
-image:cdw-media/media/image92.png[cdw-media/media/image92,width=483,height=236]
+image:media/image92.png[media/image92,width=483,height=236]
 
-image:cdw-media/media/image70.png[cdw-media/media/image70,width=407,height=244]
+image:media/image70.png[media/image70,width=407,height=244]
 ____
 
 * {blank}
@@ -2049,7 +2049,7 @@ ____
 Make sure you select the column origin from flights and column iata from airports table. Click APPLY.
 
 
-image:cdw-media/media/image122.png[cdw-media/media/image122,width=460,height=328]
+image:media/image122.png[media/image122,width=460,height=328]
 ____
 
 * {blank}
@@ -2057,7 +2057,7 @@ ____
 ____
 Click on + icon next to flights as shown below. Select the appropriate Database Name based on your <user_id> (Ex: wuser00_airlines) and table name airports.
 
-image:cdw-media/media/image4.png[cdw-media/media/image4,width=624,height=358]
+image:media/image4.png[media/image4,width=624,height=358]
 ____
 
 
@@ -2067,7 +2067,7 @@ ____
 Make sure you select the column dest from flights and column iata from airports table. Click APPLY. Then click on SAVE.
 
 
-image:cdw-media/media/image21.png[cdw-media/media/image21,width=480,height=283]
+image:media/image21.png[media/image21,width=480,height=283]
 ____
 
 * {blank}
@@ -2076,7 +2076,7 @@ ____
 Select “dest” from the flights table and “iata” from the airports_a table. Click APPLY
 
 
-image:cdw-media/media/image118.png[cdw-media/media/image118,width=496,height=367]
+image:media/image118.png[media/image118,width=496,height=367]
 ____
 
 * {blank}
@@ -2111,9 +2111,9 @@ ____
 Click on SHOW DATA. And then click on SAVE.
 
 
-image:cdw-media/media/image31.png[cdw-media/media/image31,width=624,height=398]
+image:media/image31.png[media/image31,width=624,height=398]
 
-image:cdw-media/media/image12.png[cdw-media/media/image12,width=624,height=261]
+image:media/image12.png[media/image12,width=624,height=261]
 ____
 * {blank}
 +
@@ -2144,11 +2144,11 @@ Click on the Fields column on the left window pane. Then click on EDIT FIELDS. M
 *airports_1 table:* All columns
 
 
-image:cdw-media/media/image102.png[cdw-media/media/image102,width=624,height=377]
+image:media/image102.png[media/image102,width=624,height=377]
 
-image:cdw-media/media/image14.png[cdw-media/media/image14,width=624,height=296]
+image:media/image14.png[media/image14,width=624,height=296]
 
-image:cdw-media/media/image16.png[cdw-media/media/image16,width=624,height=302]
+image:media/image16.png[media/image16,width=624,height=302]
 ____
 
 * {blank}
@@ -2156,7 +2156,7 @@ ____
 ____
 Click on TITLE CASE. And notice that the column names changes to be Camel case.
 
-image:cdw-media/media/image25.png[cdw-media/media/image25,width=624,height=416]
+image:media/image25.png[media/image25,width=624,height=416]
 ____
 
 * {blank}
@@ -2165,7 +2165,7 @@ ____
 Click on the pencil icon next to Depdelay icon.
 
 
-image:cdw-media/media/image106.png[cdw-media/media/image106,width=624,height=194]
+image:media/image106.png[media/image106,width=624,height=194]
 ____
 
 * {blank}
@@ -2174,7 +2174,7 @@ ____
 Change the Default Aggregation to Average.
 
 
-image:cdw-media/media/image107.png[cdw-media/media/image107,width=292,height=327]
+image:media/image107.png[media/image107,width=292,height=327]
 ____
 
 * {blank}
@@ -2183,7 +2183,7 @@ ____
 Click on the Display Format and then change Category to be Integer. Check mark the box next to the Use 1000 separator. Click on APPLY.
 
 
-image:cdw-media/media/image35.png[cdw-media/media/image35,width=471,height=340]
+image:media/image35.png[media/image35,width=471,height=340]
 ____
 
 * {blank}
@@ -2191,16 +2191,16 @@ ____
 ____
 Click on the down arrow shown against the Origin column and the click on Clone. A column Copy of Origin is created. Click on the 'pencil' icon next to it.
 
-image:cdw-media/media/image19.png[cdw-media/media/image19,width=624,height=342]
+image:media/image19.png[media/image19,width=624,height=342]
 
-image:cdw-media/media/image130.png[cdw-media/media/image130,width=624,height=280]
+image:media/image130.png[media/image130,width=624,height=280]
 ____
 * {blank}
 +
 ____
 Change the Display Name to Route.
 
-image:cdw-media/media/image49.png[cdw-media/media/image49,width=241,height=263]
+image:media/image49.png[media/image49,width=241,height=263]
 
 Then click on Expression and enter the following in the Expression editor. Click on APPLY.
 
@@ -2208,11 +2208,11 @@ Then click on Expression and enter the following in the Expression editor. Click
 *concat([Origin], '-', [Dest])*
 
 
-image:cdw-media/media/image54.png[cdw-media/media/image54,width=624,height=376]
+image:media/image54.png[media/image54,width=624,height=376]
 
 Click on SAVE. We have completed the step of data modeling and now we will create data visualization.
 
-image:cdw-media/media/image85.png[cdw-media/media/image85,width=401,height=311]
+image:media/image85.png[media/image85,width=401,height=311]
 ____
 
 === Dashboard Creation
@@ -2222,7 +2222,7 @@ ____
 ____
 Now we will create a dashboard page based on the data model that we just created. Click on NEW DASHBOARD.
 
-image:cdw-media/media/image69.png[cdw-media/media/image69,width=624,height=126]
+image:media/image69.png[media/image69,width=624,height=126]
 ____
 
 * {blank}
@@ -2230,7 +2230,7 @@ ____
 ____
 You will see the following.
 
-image:cdw-media/media/image121.png[cdw-media/media/image121,width=624,height=249]
+image:media/image121.png[media/image121,width=624,height=249]
 ____
 
 * {blank}
@@ -2238,7 +2238,7 @@ ____
 ____
 A quick overview of the screen that you are seeing is as follows. On the right side of the screen there will be a *VISUALS* menu. At the top of this menu, there is a series of Visual Types to choose from. There will be 30+ various visuals to choose from. Below the Visual Types you will see what are called Shelves. The Shelves that are present depend on the Visual Type that is selected. *Shelves* with a * are required, all other Shelves are optional. On the far right of the page there is a *DATA* menu, which identifies the Connection & Dataset used for this visual. Underneath that is the Fields from the Dataset broken down by Dimensions and Measures. With each of these Categories you can see that it is subdivided by each Table in the Dataset.
 
-image:cdw-media/media/image126.png[cdw-media/media/image126,width=624,height=305]
+image:media/image126.png[media/image126,width=624,height=305]
 ____
 
 * {blank}
@@ -2253,14 +2253,14 @@ ____
 Pick the Visual Type - Select the Stacked Bar chart visual on the top right as shown below. Make sure Build is selected for it to appear on the right side.
 
 
-image:cdw-media/media/image77.png[cdw-media/media/image77,width=624,height=210]
+image:media/image77.png[media/image77,width=624,height=210]
 ____
 * {blank}
 +
 ____
 Find Route under Dimensions → flights. Drag to X-Axis. Similarly, find DepDelay under Measures → flights. Drag to Y-Axis. By default the aggergation selected is average and hence you would see avg(Depdelay).
 
-image:cdw-media/media/image101.png[cdw-media/media/image101,width=298,height=421]
+image:media/image101.png[media/image101,width=298,height=421]
 ____
 
 * {blank}
@@ -2269,9 +2269,9 @@ ____
 Click on the arrow next to avg(Depdelay). Enter 50 against the text box labeled Top K. Click on REFRESH VISUAL.
 
 
-image:cdw-media/media/imagecopy01.png[cdw-media/media/imagecopy01,width=300,height=400]
+image:media/imagecopy01.png[media/imagecopy01,width=300,height=400]
 
-image:cdw-media/media/image47.png[cdw-media/media/image47,width=624,height=241]
+image:media/image47.png[media/image47,width=624,height=241]
 ____
 
 * {blank}
@@ -2279,7 +2279,7 @@ ____
 ____
 Click enter title and enter the title based on your user id as - <user_id>- Routes with Highest Avg. Departure Delays. Then click on SAVE.
 
-image:cdw-media/media/image29.png[cdw-media/media/image29,width=460,height=371]
+image:media/image29.png[media/image29,width=460,height=371]
 ____
 
 *_This concludes the workshop. Hope you had a great time learning something new and useful._*
